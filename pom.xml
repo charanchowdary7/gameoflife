@@ -496,3 +496,9 @@
         </profile>
     </profiles>
 </project>
+<distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://192.168.0.132:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
