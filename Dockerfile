@@ -1,5 +1,5 @@
 # use a node base image
-FROM node:7-onbuild
+FROM ubuntu 
 
 # set maintainer
 MAINTAINER "charandevops8594@gmail.com"
