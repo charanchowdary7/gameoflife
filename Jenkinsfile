@@ -1,7 +1,7 @@
 node {
-<<<<<<< HEAD
+
     def app
-=======
+
        stage 'Checkout'
        checkout scm
            
@@ -15,7 +15,7 @@ node {
        stage 'Publish'
        app.push 'latest'
       }
->>>>>>> b77b9b880db676b91903db686fa22fc1623a89f6
+
 
     stage('Clone repository') {
         /* Let's make sure we have the repository cloned to our workspace */
