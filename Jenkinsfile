@@ -3,7 +3,7 @@ node {
        checkout scm
            
        stage 'Build'
-       def app = sudo "docker.build "artirix/our-app:${env.BUILD_NUMBER}""
+       def app = docker.build gameoflife/our-app:${env.BUILD_NUMBER}"
 
        stage 'Test'
        app.inside {
