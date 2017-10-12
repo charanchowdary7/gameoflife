@@ -4,4 +4,7 @@ node {
 
    stage 'Checkout scm' 
    		checkout scm
+   
+   stage 'Build'
+         app = docker.build("gameoflife/hello")
 }
