@@ -5,6 +5,5 @@ node {
    stage 'Checkout scm' 
    		checkout scm
    
-   stage 'Build'
-         app = docker.build("charanchowdary7/hello")
+  
 }
